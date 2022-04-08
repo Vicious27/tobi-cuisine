@@ -19,9 +19,9 @@ body {
 }
 
 .navbar p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     letter-spacing: .1em;
-    padding: 0 6px;
+    padding: 0 12px;
     color: rgba(255, 166, 0, 0.86);
 }
 
@@ -31,7 +31,16 @@ body {
 }
 
 .navbar a {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: rgba(99, 162, 217, 0.911);
     text-decoration: none;
+}
+
+.navbar a:hover {
+    border-top: solid rgba(255, 166, 0, 0.86) 2px;
+    border-bottom: solid rgba(255, 166, 0, 0.86) 2px;
+    color: rgba(90, 141, 208, 0.899);
+    cursor: pointer;
+    border-top-left-radius: .5em;
+    border-bottom-right-radius: .5em;
 }
