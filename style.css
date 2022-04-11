@@ -39,9 +39,17 @@ body {
     text-decoration: none;
 }
 
-.navbar a:hover {
-    color: rgba(90, 141, 208, 0.899); 
+.navbar a:hover,
+.navbar a:focus {
+    color: rgba(99, 162, 217, 0.545);
+    border-bottom: 2px rgba(245, 245, 245, 0.77) outset;
+    border-top: 2px rgba(245, 245, 245, 0.77) outset;
+    padding: .2em;
     cursor: pointer;
+}
+
+.navbar a:focus {
+    outline: rgba(212, 200, 200, 0.2);
 }
 
 /*/////////////  Carousel styles  /////////////////////*/
