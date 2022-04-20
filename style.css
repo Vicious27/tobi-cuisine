@@ -55,8 +55,9 @@ body {
 /*/////////////  Carousel styles  /////////////////////*/
 
 .carousel {
-    width: 100vw;
-    height: 100vh;
+    margin: 40px 0;
+    width: 550px;
+    height: 75vh;
     position: relative;
 }
 
